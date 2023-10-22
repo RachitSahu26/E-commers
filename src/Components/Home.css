@@ -1,0 +1,43 @@
+.Hero-img-sec{
+    border: 2px solid red;
+    height: 50vh;
+padding: 20px 30px;
+
+}
+.hold-img{
+    border: 2px solid rgb(40, 142, 225);
+padding: 20px 50px;
+}
+.hold-img img{
+    /* width: 90%; */
+    border-radius: 20px;
+}
+
+
+
+
+
+
+        /* {...........................category and item section...........} */
+
+
+        .buy-item{
+    border: 2px solid rgb(229, 211, 16);
+display: flex;
+padding: 20px 50px;
+min-height: 50vh;
+max-height: auto;
+}
+
+        .category{
+    border: 2px solid rgb(41, 16, 229);
+    flex-basis: 20%;
+        }
+        .item-box{
+    border: 2px solid rgb(229, 16, 73);
+    flex-basis: 80%;
+padding: 10px 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+        }

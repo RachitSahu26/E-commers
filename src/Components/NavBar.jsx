@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 import mylog from '../assets/logo.png';
 import Shopinglog from '../assets/cart_icon.png';
-
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -19,12 +19,24 @@ function NavBar() {
 
             <div className="mid-nav">
                 <ul>
-                    <li>Shop</li>
-                    <li>Men</li>
-                    <li>Women</li>
-                    <li>kid</li>
+                <li><Link to="/shop">Shop</Link></li>
+                <li><Link to="/men">Men</Link></li>
+                <li><Link to="/women">Women</Link></li>
+                <li><Link to="/kids">Kids</Link></li>
+
 
                 </ul>
+
+
+
+
+
+               
+
+
+
+
+
 
 
             </div>
@@ -42,10 +54,10 @@ function NavBar() {
 
 
             <div className="right-nav">
-<div className="item-box">
-    <button>LOGOUT</button>
-<img src={ Shopinglog}></img>
-</div>
+                <div className="item-box">
+                    <button>LOGOUT</button>
+                    <img src={Shopinglog}></img>
+                </div>
             </div>
 
         </div>
