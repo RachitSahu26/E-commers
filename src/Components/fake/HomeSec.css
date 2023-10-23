@@ -1,6 +1,7 @@
 .Hero-img-sec{
     border: 2px solid red;
-    height: 50vh;
+    min-height: 50vh;
+    max-height: auto;
 padding: 20px 30px;
 
 }
