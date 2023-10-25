@@ -5,7 +5,7 @@ import Shop from './Pages/Shop'
 import Kid from './Pages/Kid'
 import Men from './Pages/Men'
 import Women from './Pages/Women'
-import ShoeCard from './Components/ShoeCard/ShoeCard'
+// import ShoeCard from './Components/ShoeCard/ShoeCard'
 import CardDetail from './Pages/CardDetail/CardDetail'
 
 
@@ -21,7 +21,7 @@ function App() {
           <Route path='/kid' element={<Kid />}></Route>
           <Route path='/men' element={<Men />}></Route>
           <Route path='/women' element={<Women />}></Route>
-          <Route path='/shoeDetail' element={<CardDetail/>}></Route>
+          <Route path='/cardDetail' element={<CardDetail/>}></Route>
 
 
         </Routes>

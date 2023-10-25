@@ -1,8 +1,8 @@
 import React from 'react'
 import "./NavBar.css";
 
-import mylog from '../assets/logo.png';
-import Shopinglog from '../assets/cart_icon.png';
+// import mylog from '../assets/logo.png';
+// import Shopinglog from '../assets/cart_icon.png';
 import { Link } from 'react-router-dom';
 
 
@@ -13,7 +13,7 @@ function NavBar() {
             {/* ..............................left nav................ */}
 
             <div className="left-nav">
-                <img src={mylog} alt='logo' />
+                {/* <img src={mylog} alt='logo' /> */}
             </div>
             {/* ..............................mid nav................ */}
 
@@ -56,7 +56,7 @@ function NavBar() {
             <div className="right-nav">
                 <div className="item-box">
                     <button>LOGOUT</button>
-                    <img src={Shopinglog}></img>
+                    {/* <img src={Shopinglog}></img> */}
                 </div>
             </div>
 
