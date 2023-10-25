@@ -1,9 +1,11 @@
 import React from 'react'
+import NavBar from '../../Components/NavBar/NavBar'
 
 function CardDetail() {
   return (
     <div>
-      hhghgjhg
+      <NavBar/>
+
     </div>
   )
 }
