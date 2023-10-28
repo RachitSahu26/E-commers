@@ -1,0 +1,27 @@
+.nav-bar {
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    
+    .mid-nav {
+      border: 2px solid rgb(12, 140, 238);
+      padding: 10px 20px;
+      
+      ul {
+        display: flex;
+        
+        li {
+          padding: 10px;
+          list-style-type: none;
+          font-size: 25px;
+        }
+      }
+    }
+    
+    .right-nav {
+      border: 2px solid rgb(238, 12, 178);
+      padding: 10px 60px;
+    }
+  }
+  

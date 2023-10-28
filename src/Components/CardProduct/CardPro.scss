@@ -1,0 +1,67 @@
+.CardProduct {
+    border: 2px solid yellow;
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    
+    .left {
+      border: 2px solid rgb(54, 20, 208);
+      padding: 10px 70px;
+      flex-basis: 50%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .img-box img {
+      width: 500px;
+      height: 400px;
+    }
+  
+    .right {
+      border: 2px solid rgb(208, 20, 120);
+      padding: 10px 70px;
+      flex-basis: 50%;
+    }
+  
+    .size-box {
+      border: 2px solid rgb(64, 20, 208);
+      padding: 20px 20px;
+      
+      button {
+        padding: 10px 20px;
+        margin-left: 10px;
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+    }
+  
+    .addCard-addWish {
+      border: 2px solid rgb(163, 239, 20);
+      padding: 20px 20px;
+      
+      button {
+    
+        padding: 10px 20px;
+        margin-left: 10px;
+        font-size: 1.4rem;
+        cursor: pointer;
+border-radius: 10px;
+
+      }
+    }
+  }
+  
+
+  .card-area{
+
+
+display: flex;
+border: 2px solid rgb(40, 40, 31);
+padding: 10px 10px;
+flex-wrap: wrap;
+gap: 50px;
+// margin-left: 33px;
+  }

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./NavBar.css";
+import "./NavBar.scss";
 
 // import mylog from '../assets/logo.png';
 // import Shopinglog from '../assets/cart_icon.png';
