@@ -7,6 +7,7 @@ import Men from './Pages/Men'
 import Women from './Pages/Women'
 // import ShoeCard from './Components/ShoeCard/ShoeCard'
 import CardDetail from './Pages/CardDetail/CardDetail'
+import LogOut from './Pages/LogOut'
 
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
         <Routes>
 
 
-          <Route path='/' element={<Shop />}></Route>
+          <Route path='/shop' element={<Shop />}></Route>
           <Route path='/kid' element={<Kid />}></Route>
           <Route path='/men' element={<Men />}></Route>
           <Route path='/women' element={<Women />}></Route>
           <Route path='/cardDetail' element={<CardDetail/>}></Route>
+          <Route path='/LoginPage' element={<LogOut/>}></Route>
 
 
         </Routes>

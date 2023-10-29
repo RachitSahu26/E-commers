@@ -1,14 +1,15 @@
 import React from 'react'
 import NavBar from '../Components/NavBar/NavBar'
-import HomeSec from '../Components/fake/HomeSec'
+import HeroSec from '../Components/Hero/HeroSec'
+
 
 function Shop() {
   return (
     <div>
       
 <NavBar/>
-<HomeSec menhead={"shop"}/>
 
+<HeroSec  menhead={"shop"}/>
 
     </div>
   )

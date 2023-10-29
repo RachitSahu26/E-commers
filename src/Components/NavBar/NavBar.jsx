@@ -20,11 +20,12 @@ function NavBar() {
             <div className="mid-nav">
                 <ul>
                 <li><Link to="/shop">Shop</Link></li>
+           
                 <li><Link to="/men">Men</Link></li>
                 <li><Link to="/women">Women</Link></li>
                 <li><Link to="/kid">Kids</Link></li>
 
-
+               
                 </ul>
 
 
@@ -55,7 +56,7 @@ function NavBar() {
 
             <div className="right-nav">
                 <div className="item-box">
-                    <button>LOGOUT</button>
+                    <button><Link to='/LoginPage'>LOGOUT</Link></button>
                     {/* <img src={Shopinglog}></img> */}
                 </div>
             </div>
