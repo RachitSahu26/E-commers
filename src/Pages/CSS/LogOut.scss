@@ -1,221 +1,62 @@
-.form{
-    display: flex;
-    /* border: 2px solid red; */
-    justify-content: center;
-    padding-bottom:230px ;
-    padding-top:200px ;
-  
-    /* height: 100vh; */
+
+.wrap-container{
+    border: 2px solid rgb(9, 218, 173);
+height: 97vh;
+padding: 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.Form-area{
-    /* border: 2px solid red; */
-    background-color: rgb(20, 20, 20);
-padding: 30px 30px;
-width: 600px;
-
-border-radius: 20px;
-}
-.Form-area:hover{
-    box-shadow: 0px 0px 22px 0px rgb(159, 151, 6);
-
-}
-
-
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #fff;
-    font-size: 2rem;
-}
-
-input[type="text"],
-input[type="email"],
-#password {
-    width: 100%;
+.container {
+    position: relative;
+    width: 320px;
+    background: #fff;
+    border: 2px solid red;
     padding: 20px;
-    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+  }
+  
+  .input-box {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #1f293a;
+    outline: none;
+  }
+  
+  .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .input-box input:focus + label,
+  .input-box input:valid + label {
+    top: -15px;
+    font-size: 12px;
+    color: #1f293a;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: #1f293a;
+    border: none;
     border-radius: 5px;
-font-size: 1.5rem;
-}
-
-textarea {
-    resize: vertical;
-}
-
-button{
-    background-color: rgb(248, 217, 15);
-font-size: 2rem;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    border-radius:20px ;
-    color:black;
-}
-
-button:hover {
-    background: transparent;
-    color: red;
-    box-shadow: 0px 0px 22px 0px rgb(6, 134, 159);
-border: 2px solid white;
-}
-
-
-/* ..................media queries-----(1441)----.............. */
-
-
-
-@media screen and (max-width:1441px) {
-    .Form-area{
-        /* border: 2px solid red; */
-        background-color: rgb(20, 20, 20);
-    padding: 30px 30px;
-    width: 800px;
-border: 2px solid aqua;
-    
-    border-radius: 20px;
-    }
-
-    label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
-        color: #fff;
-        font-size: 3rem;
-    }
-    
-}
-/* ..................media queries-----(1025)----.............. */
-@media screen and (max-width:1085px) {
-    .Form-area{
-
-        padding: 20px 30px;
-        width: 500px;
-border: 2px solid aqua;
-        
-        }
-        label {
-            font-size: 0.5rem;
-        }
-}
-
-
-/* ..................media queries-----(1281)----.............. */
-@media screen and (max-width:1281px) {
-    .Form-area{
-        border: 2px solid aqua;
-
-        padding: 10px 30px;
-        width: 600px;
-        
-        }
-        label {
-            font-size: 2rem;
-        }
-
-}
-
-
-
-/* ..................media queries-----(541)----.............. */
-@media screen and (max-width:541px) {
-    .form{
-      /* height: 100vh; */
-    padding: 10px 30px;
-    
-    }
+    color: #fff;
+    cursor: pointer;
+  }
   
-    
-    
-    .Form-area{
-border: 2px solid aqua;
-    padding: 20px 30px;
-    width: 600px;
-
-    }
-    label {
-        font-size: 2rem;
-    }
-
-    button{
-        font-size: 1.5rem;
-    }
-}
-
-
-/* ..................media queries-----(415)----.............. */
-@media screen and (max-width:415px) {
-    .form{
-      /* height: 100vh; */
-    padding: 10px 30px;
-    
-    }
-  
-    
-    
-    .Form-area{
-border: 2px solid aqua;
-    padding: 20px 30px;
-    width: 600px;
-
-    }
-    label {
-        font-size: 2rem;
-    }
-
-    button{
-        font-size: 1.5rem;
-    }
-}
-
-
-/* ..................media queries-----(376)----.............. */
-@media screen and (max-width:376px) {
-    .Form-area{
-     
-            width: 500px;
-        
-            }
-    label {
-        font-size: 1.5rem;
-    }
-}
-
-
-
-
-
-
-/* ..................media queries-----(281)----.............. */
-@media screen and (max-width:281px) {
-    input[type="text"],
-    input[type="email"], textarea {
-       
-    font-size: 1rem;
-    }
-
-}
