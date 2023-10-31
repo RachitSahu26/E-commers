@@ -1,21 +1,15 @@
 import React from 'react'
-import NavBar from '../Components/NavBar/NavBar'
-import HeroSec from '../Components/Hero/HeroSec'
-
+import HeroSec from '../Components/HeroSec/HeroSec'
+import Popularity from '../Components/Popularity/Popularity'
 
 function Shop() {
   return (
     <div>
-      
-<NavBar/>
-
-<HeroSec  menhead={"shop"}/>
-
+      Shop
+<HeroSec/>
+<Popularity/>
     </div>
   )
 }
 
 export default Shop
-
-
-
