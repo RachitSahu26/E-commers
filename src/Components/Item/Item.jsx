@@ -12,10 +12,10 @@ function Item(props) {
 
             {/* ........detail of shoe..... */}
             <div className="item-detail">
-                <p className='head-d'>Red Tape</p>
+                <p className='head-d'>{props.name}</p>
                 <p>Men Color Black/white</p>
-                <span>{props. new_price}</span>
-                <p>{props. old_price}</p>
+                <span>${props.new_price}</span>
+                <p>${props.old_price}</p>
             </div>
         </div>
 </>
