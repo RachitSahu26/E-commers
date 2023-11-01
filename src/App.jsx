@@ -6,9 +6,9 @@ import Shop from './Pages/Shop'
 import Singup from './Pages/Singup'
 import ItemAdded from './Components/ItemAdded/ItemAdded'
 import ShopCategory from './Pages/ShopCategory'
-import mencate from"./Components/assets/banner_mens.png";
-import womencate from"./Components/assets/banner_women.png";
-import kidcate from"./Components/assets/banner_kids.png";
+import mencate from "./Components/assets/banner_mens.png";
+import womencate from "./Components/assets/banner_women.png";
+import kidcate from "./Components/assets/banner_kids.png";
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
 
           <Route path='/shop' element={<Shop />} />
 
-          <Route path='/men' element={<ShopCategory  banner={ mencate } category="men" />} />
-          <Route path='/women' element={<ShopCategory banner={ womencate } category="women" />} />
-          <Route path='/kid' element={<ShopCategory banner={ kidcate } category="kid" />} />
+          <Route path='/men' element={<ShopCategory headName={"Men"} banner={mencate} category="men" />} />
+          <Route path='/women' element={<ShopCategory headName={"Women"} banner={womencate} category="women" />} />
+          <Route path='/kid' element={<ShopCategory headName={"Kid"} banner={kidcate} category="kid" />} />
 
           <Route path='/signup' element={<Singup />} />
           <Route path='/additem' element={<ItemAdded />} />

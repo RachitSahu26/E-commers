@@ -42,6 +42,7 @@ function SignupForm() {
           required
         />
         <button type="submit">Sign Up</button>
+        <p className='login-masg'>Already have an account?   <span>Login here.</span> </p>
       </form>
     </div>
   );
