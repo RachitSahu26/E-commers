@@ -12,7 +12,7 @@
 
         display: flex;
 
-// .............................. collection imag..........
+        // .............................. collection imag..........
         .collection-img {
             display: flex;
 
@@ -32,16 +32,16 @@
         }
 
 
-// .............................. main imag..........
+        // .............................. main imag..........
 
 
-.mainImg{
-    img {
-        width: 500px ;
-        padding: 5px;
-        height: 600px;
-    }
-}
+        .mainImg {
+            img {
+                width: 500px;
+                padding: 5px;
+                height: 600px;
+            }
+        }
 
 
 
@@ -82,6 +82,19 @@
                 margin: 10px;
                 font-size: 1rem;
                 // border: none;
+            }
+        }
+
+
+        .add-to-card{
+
+            // border: 2px solid greenyellow;
+            button{
+                padding: 10px 10px;
+            margin: 10px;
+            font-size: 2rem;
+            
+            
             }
         }
 

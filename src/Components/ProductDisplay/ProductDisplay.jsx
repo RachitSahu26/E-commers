@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./ProductDis.scss";
+import { ShopContext } from '../../Context/ShopContext';
 function ProductDisplay(props) {
     const { product } = props;
+    const {addToCart}=useContext(ShopContext)
     return (
 
 
@@ -41,7 +43,7 @@ function ProductDisplay(props) {
                 {/* ..........................right display part ....... */}
                 <div className="rightDis">
 
-{/* .................detail.............. */}
+                    {/* .................detail.............. */}
                     <div className="detail">
 
                         <h1> {product.name} </h1>
@@ -51,7 +53,7 @@ function ProductDisplay(props) {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, adipisci?
                         </p>
                     </div>
-{/* .................size select.............. */}
+                    {/* .................size select.............. */}
 
                     <div className="size-select">
                         <h3>Select Size</h3>
@@ -61,8 +63,12 @@ function ProductDisplay(props) {
                         <button>Xl</button>
 
                     </div>
-{/* .................add to card.............. */}
-<button>Add to Card</button>
+                    {/* .................add to card.............. */}
+
+                    <div className="add-to-card">
+                        <button onClick={()=>{addToCart(product.id)}}>Add to Card</button>
+                        <button>Wish List </button>
+                    </div>
 
 
 

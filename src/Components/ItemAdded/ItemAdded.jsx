@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ShopContext } from '../../Context/ShopContext'
 
 function ItemAdded() {
+
+const {all_product,cartItems,removeFromCart}=useContext(ShopContext)
+
+
   return (
     <div>
-      item adding section    </div>
+    
+    
+    
+    dffdfdffdf
+
+
+
+        </div>
   )
 }
 
