@@ -1,13 +1,14 @@
 import React from 'react'
 import  "./Item.scss";
 import "../assets/all_product";
+import { Link } from 'react-router-dom';
 function Item(props) {
   return (
 <>
        <div className='item'>
             {/* .........shoeImg....... */}
             <div className="item-img">
-                <img src={props. image} />
+               <Link to={`/product/${props.id}`}> <img src={props. image} /> </Link>
             </div>
 
             {/* ........detail of shoe..... */}

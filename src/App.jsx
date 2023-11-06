@@ -9,6 +9,7 @@ import ShopCategory from './Pages/ShopCategory'
 import mencate from "./Components/assets/banner_mens.png";
 import womencate from "./Components/assets/banner_women.png";
 import kidcate from "./Components/assets/banner_kids.png";
+import Product from './Pages/Product'
 
 function App() {
   return (
@@ -25,6 +26,14 @@ function App() {
 
           <Route path='/signup' element={<Singup />} />
           <Route path='/additem' element={<ItemAdded />} />
+          <Route path='/product' element={<Product />}>
+
+            <Route path=':productId' element={<Product />} />
+          </Route>
+
+
+
+
 
         </Routes>
 
