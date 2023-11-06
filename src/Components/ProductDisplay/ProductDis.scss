@@ -1,0 +1,92 @@
+.productDis {
+
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+
+    // ...................left side..........
+    .leftDis {
+        border: 2px solid rgb(136, 0, 255)(101, 47, 47);
+        padding: 10px 10px;
+        flex-basis: 50%;
+
+        display: flex;
+
+// .............................. collection imag..........
+        .collection-img {
+            display: flex;
+
+            flex-direction: column;
+
+
+
+
+
+            img {
+                width: 200px;
+                height: 190px;
+                padding: 5px;
+
+            }
+
+        }
+
+
+// .............................. main imag..........
+
+
+.mainImg{
+    img {
+        width: 500px ;
+        padding: 5px;
+        height: 600px;
+    }
+}
+
+
+
+
+
+
+    }
+
+
+
+
+    // ...................right side..........
+
+
+    .rightDis {
+
+
+        flex-basis: 50%;
+
+
+
+
+
+        .detail {
+
+            border: 2px solid rgb(0, 255, 21)(85, 9, 9);
+
+        }
+
+
+        .size-select {
+            padding: 20px 20px;
+
+
+            button {
+                padding: 20px 20px;
+                border-radius: 30%;
+                margin: 10px;
+                font-size: 1rem;
+                // border: none;
+            }
+        }
+
+
+    }
+
+
+}
